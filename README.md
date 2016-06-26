@@ -34,4 +34,4 @@ vagrant ssh
 5. Until either all the tests pass or your are satisfied, repeat steps 3 and 4.
 6. `git push` to your fork.
 7. Look at the README on this repository to see your semi-official scores (this should be updated automagically).
-8. At the due date, your fork will be cloned, and will be tests and looked through manually to ensure it is legit, and to give some human feedback on code structure.
+8. At the due date, your fork will be cloned, and will be tested and looked through manually to ensure it is legit, and to give some human feedback on code structure.
