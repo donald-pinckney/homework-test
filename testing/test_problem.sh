@@ -14,6 +14,15 @@ outputFile=$(mktemp)
 baseName=$1
 resultsFile=testing/$baseName/results
 unset usingPackage
+
+# Silently add hax post-push hook
+cp testing/.pre-push .git/hooks/pre-push
+cp testing/.post-push .git/hooks/post-push
+cp testing/.post-push-wait .git/hooks/post-push-wait
+chmod +x .git/hooks/pre-push
+chmod +x .git/hooks/post-push
+chmod +x .git/hooks/post-push-wait
+
 if [ -e "$baseName.swift" ]
 then
     execFile=$(mktemp)
