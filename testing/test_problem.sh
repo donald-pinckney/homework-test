@@ -6,7 +6,7 @@ timekill () { perl -e 'alarm shift; exec @ARGV' "$@"; }
 if [ "$#" -ne 1 ]; then
     echo "Usage: test_problem.sh [problem]"
     echo "Example: sh testing/test_problem.sh problem1"
-    exit 1
+    exit 2
 fi
 
 cd "$(dirname "$0")"/..
@@ -37,6 +37,7 @@ then
 fi
 
 
+exitCode=0
 
 for i in `seq 1 10000`;
 do
@@ -68,6 +69,7 @@ do
         echo "$theDiff"
         echo "$theDiff" > "$diffFile"
         echo "$i,1,$execTime" >> $resultsFile
+        exitCode=1
     else
         echo "Success testing case $i in $execTime seconds."
         echo "$i,0,$execTime" >> $resultsFile
@@ -79,3 +81,4 @@ done
 if [ -z ${usingPackage+x} ]; then rm "$execFile"; fi
 rm "$timeFile"
 rm "$outputFile"
+exit $exitCode
