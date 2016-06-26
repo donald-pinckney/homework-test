@@ -1,6 +1,6 @@
 #!/bin/bash
 
-timeoutValue=1
+timeoutValue=5
 timekill () { perl -e 'alarm shift; exec @ARGV' "$@"; }
 
 if [ "$#" -ne 1 ]; then
