@@ -6,4 +6,4 @@ sleep(1)
 //sleep(10)
 
 // For this problem, you need to print the text "Hello, World!"
-print("my text goes here")
+print("Hello, World!")
