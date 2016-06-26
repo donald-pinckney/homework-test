@@ -6,6 +6,6 @@ for problemDir in testing/*/
 do
     problemDir=${problemDir%*/}
     problem=${problemDir##*/}
-    echo "\nTesting $problem"
+    echo "Testing $problem"
     bash testing/test_problem.sh $problem
 done
