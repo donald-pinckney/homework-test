@@ -1,0 +1,4 @@
+dist: trusty
+language: c
+compiler: clang
+script: testing/test_all.sh
