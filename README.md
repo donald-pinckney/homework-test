@@ -19,7 +19,7 @@ This will take a while (~ 20 minutes) to setup. Then, you can run the command:
 vagrant ssh
 ```
 
-## Part 3: Actually Write Your Code
+## Part 3: Actually Write Code
 1. On GitHub, fork this repository.
 2. `git clone` your fork to your virtual machine.
 3. Write some code, and frequently `git commit`.
