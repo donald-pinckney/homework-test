@@ -1,4 +1,4 @@
-# How to Complete Homework
+# How to Complete Homework [![Build Status](https://travis-ci.org/donald-pinckney/homework-test.svg?branch=master)](https://travis-ci.org/donald-pinckney/homework-test)
 
 ## Part 1: Setup Accounts
 1. If you don't already have a GitHub account, make one: [https://github.com/join](https://github.com/join)
