@@ -1,4 +1,6 @@
 dist: trusty
+sudo: required
+
 language: c
 compiler: clang
 script: testing/test_all.sh
