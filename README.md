@@ -13,7 +13,7 @@
 cd path/to/where/you/downloaded/vagrant-box/
 vagrant up
 ```
-This will take a while (~ 20 minutes) to setup. Then, you can run:
+This will take a while (~ 20 minutes) to setup. Then, you can run the command:
 
 ```
 vagrant ssh
