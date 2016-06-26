@@ -4,6 +4,6 @@ sudo: required
 language: c
 compiler: clang
 install:
-    - sh .travis.install_swift.sh
+    - bash .travis.install_swift.sh
     - export PATH=$PATH:~/bin/swift/usr/bin
 script: testing/test_all.sh
