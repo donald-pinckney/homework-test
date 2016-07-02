@@ -1,8 +1,8 @@
 # Homework Scores
 
-|Name|Problem 1, Test 1|Problem 2, Test 1|Problem 2, Test 2|
-|---|---|---|---|
-|Donald Pinckney|**Correct** :+1:, 0.00 seconds|*Timeout* :hourglass:, 5 seconds|**Correct** :+1:, 4.01 seconds|
+|Name|Problem 1, Test 1|Problem 2, Test 1|Problem 2, Test 2|Total Correct|
+|---|---|---|---|---|
+|Donald Pinckney|**Correct** :+1:, 0.00 seconds|*Timeout* :hourglass:, 5 seconds|**Correct** :+1:, 4.01 seconds|2|
 
 
 # How to Complete Homework [![Build Status](https://travis-ci.org/donald-pinckney/homework-test.svg?branch=master)](https://travis-ci.org/donald-pinckney/homework-test)
