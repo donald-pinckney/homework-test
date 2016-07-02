@@ -1,12 +1,8 @@
 # Homework Scores
 
-|Name|Problem 1, Test 1|Problem 2, Test 1|Problem 2, Test 2|Total Correct|
-|---|---|---|---|---|
-|Donald Pinckney|*Didn't compile* :warning:<br /> 0 seconds|*Timeout* :hourglass:<br /> 5 seconds|**Correct** :+1:<br /> 4.03 seconds|1|
-|Donald "The DJ" Pinckney|*Didn't compile* :warning:<br /> 0 seconds|*Timeout* :hourglass:<br /> 5 seconds|**Correct** :+1:<br /> 4.03 seconds|1|
+No results yet!
 
-
-# How to Complete Homework [![Build Status](https://travis-ci.org/donald-pinckney/homework-test.svg?branch=master)](https://travis-ci.org/donald-pinckney/homework-test)
+# How to Complete Homework
 
 ## Part 1: Setup Accounts
 1. If you don't already have a GitHub account, make one: [https://github.com/join](https://github.com/join)
@@ -17,20 +13,21 @@
 3. Download the 1678 Vagrant configuration: [https://github.com/frc1678/vagrant-box/archive/master.zip](https://github.com/frc1678/vagrant-box/archive/master.zip), and save it somewhere safe on your computer (you will use this a lot).
 4. Setup the Vagrant virtual machine. Using your terminal / command prompt:
 
-```
-cd path/to/where/you/downloaded/vagrant-box/
-vagrant up
-```
+	```
+	cd path/to/where/you/downloaded/vagrant-box/
+	vagrant up
+	```
 This will take a while (~ 20 minutes) to setup. Then, you can run the command:
 
-```
-vagrant ssh
-```
+	```
+	vagrant ssh
+	```
 5. Make sure to setup your git name and email:
-```
-git config --global user.name "Your Name"
-git config --global user.email your_email@example.com
-```
+
+	```
+	git config --global user.name "Your Name"
+	git config --global user.email your_email@example.com
+	```
 
 ## Part 3: Actually Write Code
 1. On GitHub, fork this repository.

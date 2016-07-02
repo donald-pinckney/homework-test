@@ -6,4 +6,4 @@ compiler: clang
 install:
     - bash .travis.install_swift.sh
     - export PATH=$PATH:~/bin/swift/usr/bin
-script: testing/test_all.sh
+script: testing/.travis.sh
