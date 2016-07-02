@@ -1,9 +1,0 @@
-#!/bin/bash
-
-ps cax | grep git > /dev/null
-while [ $? -eq 0 ]
-do
-    sleep 0.1
-    ps cax | grep git > /dev/null
-done
-.git/hooks/post-push
