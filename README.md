@@ -1,10 +1,6 @@
 # Homework Scores
 
-|Username|Last Updated|Problem 1,<br />Test 1|Problem 2,<br />Test 1|Problem 2,<br />Test 2|Total Correct|
-|---|---|---|---|---|---|
-|[](https://github.com//homework-test)|2:25:00 pm,<br />Jul 2|**Correct** :+1:<br /> 0.00 seconds|**Correct** :+1:<br /> 0.00 seconds|**Correct** :+1:<br /> 0.00 seconds|3|
-|[donald-pinckney2](https://github.com/donald-pinckney2/homework-test)|2:37:50 pm,<br />Jul 2|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|1|
-
+No results yet!
 
 # How to Complete Homework
 
