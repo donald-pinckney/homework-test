@@ -16,20 +16,21 @@
 2. Download Vagrant: [https://www.vagrantup.com/downloads.html](https://www.vagrantup.com/downloads.html)
 3. Download the 1678 Vagrant configuration: [https://github.com/frc1678/vagrant-box/archive/master.zip](https://github.com/frc1678/vagrant-box/archive/master.zip), and save it somewhere safe on your computer (you will use this a lot).
 4. Setup the Vagrant virtual machine. Using your terminal / command prompt:
-	```
-	cd path/to/where/you/downloaded/vagrant-box/
-	vagrant up
-	```
-This will take a while (~ 20 minutes) to setup. Then, you can run the command:
-	```
-	vagrant ssh
-	```
 
+```
+cd path/to/where/you/downloaded/vagrant-box/
+vagrant up
+```
+This will take a while (~ 20 minutes) to setup. Then, you can run the command:
+
+```
+vagrant ssh
+```
 5. Make sure to setup your git name and email:
-	```
-	git config --global user.name "Your Name"
-	git config --global user.email your_email@example.com
-	```
+```
+git config --global user.name "Your Name"
+git config --global user.email your_email@example.com
+```
 
 ## Part 3: Actually Write Code
 1. On GitHub, fork this repository.
@@ -39,7 +40,7 @@ This will take a while (~ 20 minutes) to setup. Then, you can run the command:
 	```
 	testing/test_all.sh
 	```
-or
+	or
 	```
 	testing/test_problem.sh [problem_name]
 	```
