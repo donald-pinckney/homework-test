@@ -1,9 +1,8 @@
 # Homework Scores
 
-|Name|Problem 1, Test 1|Problem 2, Test 1|Problem 2, Test 2|Total Correct|
-|---|---|---|---|---|
-|Donald Pinckney|*Didn't compile* :warning:<br /> 0 seconds|*Timeout* :hourglass:<br /> 5 seconds|**Correct** :+1:<br /> 4.03 seconds|1|
-|Donald "The DJ" Pinckney|*Didn't compile* :warning:<br /> 0 seconds|*Timeout* :hourglass:<br /> 5 seconds|**Correct** :+1:<br /> 4.03 seconds|1|
+|Name|Last Updated (PST)|Problem 1, Test 1|Problem 2, Test 1|Problem 2, Test 2|Total Correct|
+|---|---|---|---|---|---|
+|Donald "The DJ" Pinckney|1:14:31 pm, Jul 2|*Didn't compile* :warning:<br /> 0 seconds|*Timeout* :hourglass:<br /> 5 seconds|**Correct** :+1:<br /> 4.03 seconds|1|
 
 
 # How to Complete Homework [![Build Status](https://travis-ci.org/donald-pinckney/homework-test.svg?branch=master)](https://travis-ci.org/donald-pinckney/homework-test)
