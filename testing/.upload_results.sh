@@ -26,7 +26,7 @@ cd "$(dirname "$0")"/..
 
 exitCode=0
 
-name="Donald Pinckney" # TODO: Compute this from GIT
+name=$(git config --global user.name)
 name=$(rawurlencode "$name")
 bodyData="name=$name"
 for problemDir in testing/*/
