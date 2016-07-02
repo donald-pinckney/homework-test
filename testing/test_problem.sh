@@ -18,7 +18,7 @@ unset usingPackage
 if [ -e "$baseName.swift" ]
 then
     execFile=$(mktemp)
-    compileCommand="swiftc $baseName.swift -o "$execFile""
+    compileCommand="xcrun -sdk macosx swiftc $baseName.swift -o "$execFile""
 else
     usingPackage=0
     execFile=$baseName/.build/debug/$baseName
@@ -65,12 +65,15 @@ do
 
     timeCode=$?
     didTimeout=false
-    if ! [ $timeCode -eq 0 ]; then
+    didRuntimeError=false
+    if [ $timeCode -ge 2 ]; then
         didTimeout=true
+    elif [ $timeCode -eq 1 ]; then
+        didRuntimeError=true
     fi
 
     # TODO: Implement check for user programmer erroring / crashing.
-    execTime=$(head -1 "$timeFile" | cut -c 5- | tr -d '[[:space:]]')
+    execTime=$(tail -3 "$timeFile" | head -1 | cut -c 5- | tr -d '[[:space:]]')
     theDiff=$(diff "$outputFile" "$correctFile")
     if [ "$noComp" = true ]; then
         echo "Failure testing $baseName case $i, since the program did not compile."
@@ -81,6 +84,12 @@ do
         echo "$theDiff"
         echo "$theDiff" > "$diffFile"
         echo "$i,2,$timeoutValue seconds" >> $resultsFile
+        exitCode=1
+        sleep 2
+    elif [ "$didRuntimeError" = true ]; then
+        echo "Failure testing $baseName case $i, since the program crashed while running."
+        cat "$timeFile"
+        echo "$i,4,$execTime seconds" >> $resultsFile
         exitCode=1
     elif [ "$theDiff" ]
     then
@@ -93,7 +102,6 @@ do
         echo "Success testing $baseName case $i in $execTime seconds."
         echo "$i,0,$execTime seconds" >> $resultsFile
     fi
-    sleep 1
 done
 
 
