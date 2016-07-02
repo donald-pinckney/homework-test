@@ -1,8 +1,6 @@
 # Homework Scores
 
-|Name|Last Updated|Total Correct|
-|---|---|---|
-
+No results yet!
 
 # How to Complete Homework [![Build Status](https://travis-ci.org/donald-pinckney/homework-test.svg?branch=master)](https://travis-ci.org/donald-pinckney/homework-test)
 
