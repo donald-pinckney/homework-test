@@ -18,7 +18,7 @@ unset usingPackage
 if [ -e "$baseName.swift" ]
 then
     execFile=$(mktemp)
-    compileCommand="xcrun -sdk macosx swiftc $baseName.swift -o "$execFile""
+    compileCommand="swiftc $baseName.swift -o "$execFile""
 else
     usingPackage=0
     execFile=$baseName/.build/debug/$baseName
