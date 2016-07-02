@@ -1,6 +1,9 @@
 # Homework Scores
 
-No results yet!
+|Name|Last Updated|Problem 1,<br />Test 1|Problem 2,<br />Test 1|Problem 2,<br />Test 2|Total Correct|
+|---|---|---|---|---|---|
+||2:25:00 pm,<br />Jul 2|**Correct** :+1:<br /> 0.00 seconds|**Correct** :+1:<br /> 0.00 seconds|**Correct** :+1:<br /> 0.00 seconds|3|
+
 
 # How to Complete Homework
 
