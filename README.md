@@ -1,8 +1,7 @@
 # Homework Scores
 
-|Name|Last Updated|Problem 1,<br />Test 1|Problem 2,<br />Test 1|Problem 2,<br />Test 2|Total Correct|
-|---|---|---|---|---|---|
-|Donald "The DJ" Pinckney|1:20:01 pm,<br />Jul 2|*Didn't compile* :warning:<br /> 0 seconds|*Timeout* :hourglass:<br /> 5 seconds|**Correct** :+1:<br /> 4.03 seconds|1|
+|Name|Last Updated|Total Correct|
+|---|---|---|
 
 
 # How to Complete Homework [![Build Status](https://travis-ci.org/donald-pinckney/homework-test.svg?branch=master)](https://travis-ci.org/donald-pinckney/homework-test)
