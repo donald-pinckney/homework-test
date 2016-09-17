@@ -1,12 +1,3 @@
-# Homework Scores
-
-|Username|Last Updated|Problem 1,<br />Test 1|Problem 2,<br />Test 1|Problem 2,<br />Test 2|Total Correct|
-|---|---|---|---|---|---|
-|[donald-pinckney2](https://github.com/donald-pinckney2/homework-test)|2:47:52 pm,<br />Jul 2|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|1|
-|[Jon Snow](https://github.com/Jon Snow/homework-test)|11:18:20 pm,<br />Jul 3|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.01 seconds|*Incorrect* :sob:<br /> 0.01 seconds|1|
-|[undefined](https://github.com/undefined/homework-test)|11:52:18 am,<br />Sep 15|0|
-
-
 # How to Complete Homework
 
 ## Part 1: Setup Accounts
