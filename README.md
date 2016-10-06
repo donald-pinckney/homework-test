@@ -1,12 +1,3 @@
-# Homework Scores
-
-|Username|Last Updated|Problem 1,<br />Test 1|Problem 2,<br />Test 1|Problem 2,<br />Test 2|Total Correct|
-|---|---|---|---|---|---|
-|[donald-pinckney2](https://github.com/donald-pinckney2/homework-test)|2:47:52 pm,<br />Jul 2|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|1|
-|[Jon Snow](https://github.com/Jon Snow/homework-test)|11:18:20 pm,<br />Jul 3|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.01 seconds|*Incorrect* :sob:<br /> 0.01 seconds|1|
-|[undefined](https://github.com/undefined/homework-test)|10:16:07 pm,<br />Oct 3|0|
-
-
 # How to Complete Homework
 
 ## Part 1: Setup Accounts
@@ -50,3 +41,4 @@ This will take a while (~ 20 minutes) to setup. Then, you can run the command:
 6. When you have semi-complete work that you would like to submit (you can submit unlimited times later too), `git push` your latest code, and then open a pull request to this repository from your fork.
 7. Look at the README on this repository to see your semi-official scores (this should be updated automagically).
 8. At the due date, your fork will be cloned, and will be tested and looked through manually to ensure it is legit, and to give some human feedback on code structure.
+
