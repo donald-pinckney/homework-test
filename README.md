@@ -4,7 +4,7 @@
 |---|---|---|---|---|---|
 |[donald-pinckney2](https://github.com/donald-pinckney2/homework-test)|2:47:52 pm,<br />Jul 2|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.00 seconds|1|
 |[Jon Snow](https://github.com/Jon Snow/homework-test)|11:18:20 pm,<br />Jul 3|**Correct** :+1:<br /> 0.00 seconds|*Incorrect* :sob:<br /> 0.01 seconds|*Incorrect* :sob:<br /> 0.01 seconds|1|
-|[undefined](https://github.com/undefined/homework-test)|8:53:05 am,<br />Dec 28|0|
+|[undefined](https://github.com/undefined/homework-test)|5:40:27 pm,<br />Jan 2|0|
 
 
 # How to Complete Homework
